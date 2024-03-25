@@ -1,0 +1,137 @@
+.form_align {
+    width: 49%;
+}
+
+.form_align_hed {
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.custom-file-input {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.fil_img {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+
+.input-file {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    font-size: 20px;
+    /* adjust as needed */
+}
+
+.custom-file-input label {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.choose {
+
+    float: inline-end;
+    /* padding: 10px; */
+    border: 1px solid #007bff;
+    /* display: flex; */
+    /* align-items: center; */
+    margin-top: 8px;
+    margin-right: 20px;
+    padding: 5px;
+}
+
+.file_int {
+    background-color: white;
+    width: 100%;
+    border-radius: 16px;
+    height: 54px;
+    border: 1px solid rgba(238, 238, 238, 1);
+    outline: 1px solid rgba(214, 200, 200);
+
+}
+
+.over_txt {
+    background: black;
+    color: white;
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.smt {
+    margin-top: 15px;
+    width: 300px !important;
+}
+
+.form_align>input,
+.place {
+    width: 100%;
+    border-radius: 16px;
+    height: 54px;
+    border: 1px solid rgba(238, 238, 238, 1);
+    outline: 1px solid rgba(214, 200, 200);
+}
+
+.form_align_hed>div:nth-child(2) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.error {
+    outline: 1px solid red !important;
+}
+
+@media screen and (max-width:600px) {
+    .form_align {
+        width: 100%;
+    }
+
+
+    .btn_crt {
+        width: unset !important;
+    }
+
+    .btn_crt button {
+        font-size: 12px;
+    }
+
+    .sts_hed>img {
+        width: 10% !important;
+    }
+
+    .smt {
+        width: 100% !important;
+    }
+
+    .ist_pay>div p {
+        font-size: 12px;
+    }
+
+   
+}
+
+@media screen and (max-width:1100px) {
+    .sts_sprt {
+        width: 60% !important;
+    }
+    .adding{
+        width: 40% !important;
+    }
+}

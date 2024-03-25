@@ -1,0 +1,12 @@
+@import url("./css/investorCreate.css");
+
+@import url("./css/investerAll.css");
+
+/* investors */
+
+
+body {
+  font-family: 'Readex Pro', sans-serif !important;
+  background: rgba(238, 238, 238, 1);
+  /* Use the 'Readex Pro' font family for the body text */
+}
